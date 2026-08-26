@@ -1,0 +1,136 @@
+.navbar {
+    background-color: #2e2e2e;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    box-sizing: border-box;
+    z-index: 100;
+}
+
+.navbar-links {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+}
+
+.navbar-links a {
+    color: #cecece;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 8px 12px;
+    border-radius: 4px;
+}
+
+
+
+body {
+    background-color: #121212;
+    color: #FAF9F6;
+    margin: 0;
+    font-family: 'Inter', system-ui, -apple-system, sans-serif;
+}
+
+h1 {
+    font-size: 80px;
+    margin-bottom: 0;
+}
+
+.intro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.title {
+    margin-left: 100px;
+}
+
+.band-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+.band-link {
+    text-decoration: none;
+    color: inherit;
+    display: inline-block;
+}
+
+.band {
+    display: block;
+    box-sizing: border-box;
+    width: 90%;
+    max-width: 335px;
+    margin: 20px auto;
+    padding: 0 0 0 0;
+    background-color: #363636;
+    color: #fff;
+    border: 10px solid #686868;
+    border-radius: 25px;
+    line-height: 30px;
+    font-size: 16px;
+    overflow: hidden;
+}
+.band-big {
+    display: block;
+    box-sizing: border-box;
+    width: 90%;
+    max-width: 435px;
+    margin: 20px auto;
+    padding: 0 0 0 0;
+    background-color: #363636;
+    color: #fff;
+    border: 10px solid #686868;
+    border-radius: 25px;
+    line-height: 30px;
+    font-size: 16px;
+    overflow: hidden;
+}
+.band-title {
+    font-size: 22px;
+    line-height: 1.5;
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: bold;
+    padding: 15px 15px;
+}
+.band-songs {
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: left;
+    font-family: sans-serif;
+    padding: 15px 15px;
+}
+.band-songs a:link {
+    color: #b4c2ff
+}
+.band-songs a:visited {
+    color: #5a59a0
+}
+.band-songs a:hover {
+    color: #a0ebee
+}
+.band-songs a:active {
+    color: #5a59a0
+}
+.band-img {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+    display: block;
+    margin: 0 auto;
+}
+
+.lyrics {
+    margin-left: 100px;
+}
