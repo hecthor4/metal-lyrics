@@ -46,6 +46,24 @@ h1 {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    width: 100%;
+    padding-top: 4rem;
+    box-sizing: border-box;
+}
+.intro h1 {
+    font-size: clamp(2.5rem, 8vw, 4rem);
+    line-height: 1.1;
+    margin: 0 0 0.5rem 0;
+    font-weight: 800;
+    letter-spacing: -0.03rem;
+    text-align: center;
+}
+.intro h2 {
+    font-size: clamp(1.2rem, 4vw, 1.8rem);
+    color: #afafaf;
+    margin: 0 0 3rem 0;
+    font-weight: 400;
+    text-align: center;
 }
 
 .title {
@@ -132,5 +150,8 @@ h1 {
 }
 
 .lyrics {
-    margin-left: 100px;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 2rem 1.5rem;
+    box-sizing: border-box;
 }
